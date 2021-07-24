@@ -4,7 +4,6 @@ pub fn print(limit: u8) {
 }
 
 fn generate_sequence(limit: u8) -> Vec<u8> {
-    //let mut numbers = Vec::new();
     (1..=limit).collect()
 }
 
